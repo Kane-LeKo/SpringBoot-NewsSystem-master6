@@ -38,9 +38,4 @@ springboot+ueditor参考了
 [参考文章](https://blog.csdn.net/qq_33745799/article/details/70031641)
 
 部分截图:
-===
-![新闻首页1](https://github.com/GGG1235/SpringBoot-NewsSystem/blob/master/img/1.png)
-![用户信息修改](https://github.com/GGG1235/SpringBoot-NewsSystem/blob/master/img/2.png)
-![新闻首页2](https://github.com/GGG1235/SpringBoot-NewsSystem/blob/master/img/3.png)
-![后台管理系统](https://github.com/GGG1235/SpringBoot-NewsSystem/blob/master/img/4.png)
-![文章管理](https://github.com/GGG1235/SpringBoot-NewsSystem/blob/master/img/5.png)
+
