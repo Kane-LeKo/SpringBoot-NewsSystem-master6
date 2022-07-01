@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org"
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
-<title th:text="鸡天新闻-首页"></title>
+<title th:text="科技新闻"></title>
 <head th:replace="~{fragments/header :: header}" >
 </head>
 <style type="text/css">
@@ -19,7 +19,7 @@
         <div class="col-md-6">
             <div class="panel panel-warning ">
                 <div class="panel-heading">
-                    <h5>国 内 新 闻<span class="badge badge-danger">hot</span></h5>
+                    <h5>苹果专区<span class="badge badge-danger">hot</span></h5>
                 </div>
                 <div class="panel-body">
                     <div class="list-group" th:each="news:${list1}">
@@ -35,7 +35,7 @@
         <div class="col-md-6">
             <div class="panel panel-danger ">
                 <div class="panel-heading">
-                    <h5>国 际 新 闻</h5>
+                    <h5>三星专区</h5>
                 </div>
                 <div class="panel-body">
                     <div class="list-group" th:each="news:${list2}">
@@ -52,7 +52,7 @@
         <div class="col-md-6">
             <div class="panel panel-warning ">
                 <div class="panel-heading">
-                    <h5>本 地 新 闻</h5>
+                    <h5>华为专区</h5>
                 </div>
                 <div class="panel-body">
                     <div class="list-group" th:each="news:${list3}">
@@ -68,7 +68,7 @@
         <div class="col-md-6">
             <div class="panel panel-danger ">
                 <div class="panel-heading">
-                    <h5>娱 乐 新 闻</h5>
+                    <h5>小米专区</h5>
                 </div>
                 <div class="panel-body">
                     <div class="list-group" th:each="news:${list4}">
@@ -83,7 +83,7 @@
         <div class="col-md-6">
             <div class="panel panel-danger ">
                 <div class="panel-heading">
-                    <h5>政 要 新 闻</h5>
+                    <h5>大疆专区</h5>
                 </div>
                 <div class="panel-body">
                     <div class="list-group" th:each="news:${list5}">

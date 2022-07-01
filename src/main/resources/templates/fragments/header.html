@@ -50,7 +50,7 @@
 
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm container" th:if="${ not isLogin }">
         <h5 class="my-0 mr-md-auto font-weight-normal">
-            <a th:href="@{~/index}" style=" text-decoration: none; color: inherit;">鸡天🐔新闻</a>
+            <a th:href="@{~/index}" style=" text-decoration: none; color: inherit;">科技新闻</a>
         </h5>
 
         <link rel="stylesheet" th:href="@{../../static/bootstrap4.1.0/bootstrap.min.css}">
@@ -64,7 +64,7 @@
     </div>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm container" th:if="${ isLogin }">
         <h5 class="my-0 mr-md-auto font-weight-normal">
-            <a th:href="@{~/index}" style=" text-decoration: none; color: inherit;">鸡天🐔新闻</a>
+            <a th:href="@{~/index}" style=" text-decoration: none; color: inherit;">科技新闻</a>
         </h5>
         <link rel="stylesheet" th:href="@{../../static/bootstrap4.1.0/bootstrap.min.css}">
         <script th:src="@{../../static/bootstrap4.1.0/jquery.min.js}"></script>
@@ -95,21 +95,21 @@
             <div class="collapse navbar-collapse" id="navbarsExample09">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" th:href="@{~/news/list/1}">国内新闻 <span class="badge badge-danger">hot</span></a>
+                        <a class="nav-link" th:href="@{~/news/list/1}">苹果专区 <span class="badge badge-danger">hot</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" th:href="@{~/news/list/2}">国际新闻</a>
+                        <a class="nav-link" th:href="@{~/news/list/2}">三星专区</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" th:href="@{~/news/list/3}">本地新闻</a>
-                    </li>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" th:href="@{~/news/list/4}">娱乐新闻</a>
+                        <a class="nav-link" th:href="@{~/news/list/3}">华为专区</a>
                     </li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" th:href="@{~/news/list/5}">政要新闻</a>
+                        <a class="nav-link" th:href="@{~/news/list/4}">小米专区</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{~/news/list/5}">大疆专区</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-md-0">

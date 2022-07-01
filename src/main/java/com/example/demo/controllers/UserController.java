@@ -49,11 +49,11 @@ public class UserController {
     private static Map<Integer, String> newsCategory;
     static {
         newsCategory = new HashMap<>();
-        newsCategory.put(1,"国内新闻");
-        newsCategory.put(2,"国际新闻");
-        newsCategory.put(3,"本地新闻");
-        newsCategory.put(4,"娱乐新闻");
-        newsCategory.put(5,"政要新闻");
+        newsCategory.put(1,"苹果专区");
+        newsCategory.put(2,"三星专区");
+        newsCategory.put(3,"华为专区");
+        newsCategory.put(4,"小米专区");
+        newsCategory.put(5,"大疆专区");
     }
 
     private static Map<Integer, String> newsStatus;

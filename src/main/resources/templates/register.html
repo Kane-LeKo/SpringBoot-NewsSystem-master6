@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <!--<link rel="icon" href="http://getbootstrap.com/favicon.ico">-->
 
-    <title th:text="鸡天新闻-注册"></title>
+    <title th:text="科技新闻-注册"></title>
 
     <!-- Bootstrap core CSS -->
     <link th:href="@{../static/css/bootstrap.min.css}" rel="stylesheet">
@@ -44,7 +44,7 @@
 <body class="text-center">
 <form name="registerForm" class="form-signin" th:action="@{~/register}" method="post" onsubmit="return check()">
     <img class="mb-4" th:src="@{../static/images/Snow.svg}" alt="" width="72" height="72" style="CURSOR: hand" onclick='window.location.href="/index"'>
-    <h1 class="h3 mb-3 font-weight-normal">鸡 天 新 闻 -- 注 册</h1>
+    <h1 class="h3 mb-3 font-weight-normal">科 技 新 闻 -- 注 册</h1>
     <input type="text" for="loginName" name="loginName" class="form-control" placeholder="用户名" required="" autofocus="">
     <input type="text" for="userPhone" name="userPhone" class="form-control" placeholder="手机号" required="" autofocus="">
     <input type="email"  for="userEmail" name="userEmail" class="form-control" placeholder="邮箱地址" required="" autofocus="">

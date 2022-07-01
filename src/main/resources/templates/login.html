@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <title th:text="鸡天新闻-登录"></title>
+    <title th:text="科技新闻-登录"></title>
 
     <!-- Bootstrap core CSS -->
     <link th:href="@{../../static/css/bootstrap.min.css}" rel="stylesheet">
@@ -18,7 +18,7 @@
 <body class="text-center">
 <form class="form-signin"  method="post" th:action="@{/login}">
     <img class="mb-4" th:src="@{../static/images/Snow.svg}" alt="" width="72" height="72" style="CURSOR: hand" onclick='window.location.href="/index"'>
-    <h1 class="h3 mb-3 font-weight-normal">鸡 天 新 闻 -- 登 录</h1>
+    <h1 class="h3 mb-3 font-weight-normal">科 技 新 闻 -- 登 录</h1>
     <input type="text" for="username" id="login_username" name="username" class="form-control" placeholder="用户名" required="" autofocus="">
     <input type="password" for="password" id="password" name="password" class="form-control" placeholder="密码" required="">
     <div class="checkbox mb-3">

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org"
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
-<title th:text="鸡天新闻-管理"></title>
+<title th:text="科技新闻-管理"></title>
 <head>
   <meta charset="utf-8">
   <meta name="renderer" content="webkit">
@@ -153,27 +153,27 @@
                   <li>
                     <label>
                       <input name="category" type="radio" value="1" th:checked="${news.getnewsType() == 1}">
-                      国内新闻</label>
+                      苹果专区</label>
                   </li>
                   <li>
                     <label>
                       <input name="category" type="radio" value="2" th:checked="${news.getnewsType() == 2}">
-                      国际新闻</label>
+                      三星专区</label>
                   </li>
                   <li>
                     <label>
                       <input name="category" type="radio" value="3" th:checked="${news.getnewsType() == 3}">
-                      本地新闻</label>
+                      华为专区</label>
                   </li>
                   <li>
                     <label>
                       <input name="category" type="radio" value="4" th:checked="${news.getnewsType() == 4}">
-                      娱乐新闻</label>
+                      小米专区</label>
                   </li>
                   <li>
                     <label>
                       <input name="category" type="radio" value="5" th:checked="${news.getnewsType() == 5}">
-                      政要新闻</label>
+                      大疆专区</label>
                   </li>
                 </ul>
               </div>

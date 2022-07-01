@@ -46,11 +46,11 @@ public class NewsController {
     private static Map<Integer, String> map;
     static {
         map = new HashMap<>();
-        map.put(1,"国内新闻");
-        map.put(2,"国际新闻");
-        map.put(3,"本地新闻");
-        map.put(4,"娱乐新闻");
-        map.put(5,"政要新闻");
+        map.put(1,"苹果专区");
+        map.put(2,"三星专区");
+        map.put(3,"华为专区");
+        map.put(4,"小米专区");
+        map.put(5,"大疆专区");
     }
 
     private static String []sorts={"DESC","ASC"};
